@@ -40,7 +40,7 @@ public class TurretControlScript : MonoBehaviour {
 
 	void OnMouseOver(){
 		if(Input.GetMouseButtonDown(0)){
-			Destroy(gameObject); //Ruin that turrets day
+			Destroy(gameObject); //Ruin that turret's day
 		}
 	}
 }
